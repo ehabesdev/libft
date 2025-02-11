@@ -78,7 +78,8 @@ int main() {
     char *str = "Merhaba,Dünya,nasılsın?";
     char **result = ft_split(str, ',');
     int i = 0;
-    while (result[i]) {
+    while (result[i])
+    {
         printf("Kelime %d: %s\n", i, result[i]);
         free(result[i]); // Bellek sızıntısını önlemek için free kullanın
         i++;
