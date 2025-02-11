@@ -49,7 +49,7 @@ Bu proje, C dilinde sıkça kullanılan fonksiyonların yeniden yazılmış ve o
 1.  Projeyi klonlayın:
 
     ```bash
-    git clone [https://github.com/kullanici_adiniz/libft.git](https://www.google.com/search?q=https://www.google.com/search%3Fq%3Dhttps://github.com/kullanici_adiniz/libft.git)
+    git clone git@github.com:emirhan-hanifi/libft.git
     ```
 
 2.  Projeye gidin:
