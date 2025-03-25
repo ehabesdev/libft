@@ -49,7 +49,7 @@ Bu proje, C dilinde sıkça kullanılan fonksiyonların yeniden yazılmış ve o
 1.  Projeyi klonlayın:
 
     ```bash
-    git clone git@github.com:emirhan-hanifi/libft.git
+    git clone git@github.com:ehabesdev/libft.git
     ```
 
 2.  Projeye gidin:
@@ -81,10 +81,10 @@ int main() {
     while (result[i])
     {
         printf("Kelime %d: %s\n", i, result[i]);
-        free(result[i]); // Bellek sızıntısını önlemek için free kullanın
+        free(result[i]);
         i++;
     }
-    free(result); // Bellek sızıntısını önlemek için free kullanın
-    return 0;
+    free(result);
+    return (0);
 }
 ```
