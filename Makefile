@@ -12,9 +12,9 @@
 
 .SILENT:
 
-CC = clang
+CC = cc
 
-CFLAG = -Wall -Wextra -Werror
+CFLAGS = -Wall -Wextra -Werror
 
 SRCS = main.c ft_isalpha.c ft_toupper.c ft_tolower.c \
 		ft_isdigit.c ft_isalnum.c ft_strchr.c \
